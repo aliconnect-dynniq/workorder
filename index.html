@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="robots" content="noarchive">
+	<title>Workflow</title>
+	<link rel="icon" type="image/png" href="favicon.png"/>
+	<link rel="stylesheet" href="/api/css/icon.css" />
+	<link rel="stylesheet" href="/api/css/web.css" />
+	<link rel="stylesheet" href="css/contactregistratie.css" />
+
+	<script src="/api/js/config"></script>
+	<script src="/api/js/aim.js"></script>
+	<script src="/api/js/web.js"></script>
+	<script src="/api/js/lib/qrcode.js"></script>
+	<!-- <script src="https://apis.google.com/js/platform.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKNir6jia2uSgmEoLFvrbcMztx-ao_Oys&libraries=places&callback=initMap" defer async></script> -->
+	<script src="js/workorder.js"></script>
+	<style>
+	.codeblock{
+		margin-top:50px;
+		padding:30px;
+		border:solid 1px #666;
+		max-width:300px;
+	}
+	body{
+		padding:20px;
+	}
+
+	.panel_fixed {
+		position:fixed;
+		margin:auto;
+		top:50px;
+		right:50px;
+		bottom:50px;
+		left:50px;
+		background-color:white;
+		z-index:100;
+		border:solid 1px gray;
+		padding: 1cm;
+		/* max-width: 800px; */
+		max-width: 15cm;
+		max-height: 20cm;
+	}
+	#authcode {
+		margin:auto;
+	}
+	/* .panel_fixed>.border {
+	border:solid 1px gray;
+	padding: 1cm;
+	} */
+	.top.row.btnbar .close {margin-left: auto;}
+	form .row.btns {margin-top: auto;}
+	@media print {
+		body>:not(.print) {display:none}
+		.np{display:none}
+	}
+
+	.slidein-panel {
+		border:solid 1px gray;
+		max-width: 18cm;
+	}
+	.slidein-panel:empty {
+	  display:none;
+	}
+
+
+	</style>
+</head>
+<body style="margin-bottom: 34px;">
+	<section id="main" class="inner"></section>
+	<section id="colpanel" class="slidein-panel"></section>
+</body>
+</html>
