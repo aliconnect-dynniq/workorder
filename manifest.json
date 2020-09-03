@@ -1,0 +1,22 @@
+{
+	"manifest_version": 2,
+	"minimum_chrome_version": "28",
+	"name": "Schiphol Workorder",
+	"short_name": "Schiphol Work",
+	"description": "Schiphol workorder manager",
+	"display": "fullscreen",
+	"background_color": "#000",
+	"start_url": ".",
+	"scope": "/",
+	"version": "1",
+	"permissions": [ ],
+	"gcm_sender_id": "71562645621",
+	"app": {},
+	"icons": [
+		{
+			"src": "favicon.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	]
+}
