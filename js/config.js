@@ -4,6 +4,7 @@
       schemas: {
         Workorder: {
           properties: {
+            
             // Configuratie Stap 1, Start opdracht naar opdrachtgever
             Opdrachtgever: {
               prompt: 'Start',
@@ -24,6 +25,7 @@
               pattern: '[a-z0-9._%+-]+@[a-z0-9.-]+\\.[a-z]{2,4}$',
               title: 'Geef email adres van opdrachtgever',
             },
+
             // Configuratie Stap 2
             Uitvoerder: {
               prompt: 'Stap 2',
