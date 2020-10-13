@@ -42,8 +42,8 @@
           hyperlinks: [
             ['SPAN', 'login_qr_code', { qr: {
               text: AIM.config.aim.websocket.socket_id ? 'https://login.aliconnect.nl?s=' + AIM.config.aim.websocket.socket_id : '',
-      				width: 160,
-      				height: 160,
+              width: 160,
+              height: 160,
             } }],
             ['A', '', 'Homepage', {href: '/'}],
           ],
